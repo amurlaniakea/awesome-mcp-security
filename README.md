@@ -15,6 +15,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 📺 [Videos](#-videos)
   - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
   - 🧑‍🚀 [Tools and code](#-tools-and-code)
+    - [Active Mitigation Solutions](#active-mitigation-solutions)
   - 💾 [MCP Security Servers](#-mcp-security-servers)
   - 💻 [Other Useful Resources](#-other-useful-resources)
  
@@ -128,6 +129,11 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
+
+### Active Mitigation Solutions
+
+- **[MCP Core Defense](https://github.com/amurlaniakea/mcp-core-defense)** - A 7-phase security proxy that intercepts and verifies all MCP tool calls (Policy Engine, DCI Checker, TDP Detector, mTLS, Sandbox) to block malicious execution before registration.
+- **[Agent Fixer Stage](https://github.com/amurlaniakea/agent-fixer-stage)** - A sub-millisecond multi-layer runtime output verifier (Normalization, Pattern Matching, Embeddings) that collapses multi-agent prompt injection success from 53.7% to 0.6%.
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
