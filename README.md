@@ -130,6 +130,8 @@ The Model Context Protocol has become the standard interface for connecting LLMs
 
 ## Other Tools
 
+- **[MCP Core Defense](https://github.com/amurlaniakea/mcp-core-defense)** & **[Agent Fixer Stage](https://github.com/amurlaniakea/agent-fixer-stage)** - A multi-layered, active cyberdefense solution for MCP environments. Core Defense secures and audits tools at pre-registration, while Agent Fixer provides ultra-lightweight, sub-millisecond runtime output verification to eliminate agent hijacking and prompt injections.
+
 ### Scanning & Auditing
 
 - [MCP-scan](https://github.com/invariantlabs-ai/mcp-scan) — Scans installed MCP servers for prompt injections, tool poisoning, cross-origin escalations.
