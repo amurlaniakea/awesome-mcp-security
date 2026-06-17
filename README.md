@@ -14,6 +14,13 @@ A curated list of resources addressing the **agent security crisis**: as of mid-
   - [MCP Core Defense](#mcp-core-defense-)
   - [Agent Fixer Stage](#agent-fixer-stage-)
 - [Other Tools](#other-tools)
+  - [MCP Core Defense](#mcp-core-defense-1)
+  - [Agent Fixer Stage](#agent-fixer-stage-1)
+  - [Scanning & Auditing](#scanning--auditing)
+  - [Server Management](#server-management)
+  - [Testing & Research](#testing--research)
+  - [Access Control](#access-control)
+  - [Specification](#specification)
 - [Articles and Blog Posts](#articles-and-blog-posts)
 - [Other Awesome Projects](#other-awesome-projects)
 - [Other Useful Resources](#other-useful-resources)
@@ -129,6 +136,9 @@ The Model Context Protocol has become the standard interface for connecting LLMs
 ---
 
 ## Other Tools
+
+- **[MCP Core Defense](https://github.com/amurlaniakea/mcp-core-defense)** — 7-phase security proxy that intercepts every MCP tool call. Blocks prompt injection, tool poisoning, and supply chain attacks before execution. **127+ tests.**
+- **[Agent Fixer Stage](https://github.com/amurlaniakea/agent-fixer-stage)** — Sub-millisecond output verifier for multi-agent workflows. Collapses prompt injection attack success from 53.7% to 0.6%. **42+ tests.**
 
 ### Scanning & Auditing
 
